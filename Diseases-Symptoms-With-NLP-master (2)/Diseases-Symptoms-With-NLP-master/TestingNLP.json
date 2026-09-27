@@ -1,0 +1,185 @@
+[
+  {
+    "text": "I have a high fever and severe headache",
+    "expected": ["high_fever", "headache"]
+  },
+  {
+    "text": "No fever but I have a sore throat and cough",
+    "expected": ["throat_pain", "cough"]
+  },
+  { "text": "I feel fine", "expected": [] },
+  {
+    "text": "I am experiencing fatigue, joint pain, and slight nausea",
+    "expected": ["joint_pain", "nausea", "fatigue"]
+  },
+  {
+    "text": "I have shortness of breath and chest pain",
+    "expected": ["breathlessness", "chest_pain"]
+  },
+  {
+    "text": "My stomach hurts and I have been vomiting all day",
+    "expected": ["stomach_pain", "vomiting"]
+  },
+  {
+    "text": "I feel very dizzy and weak in my limbs",
+    "expected": ["dizziness", "weakness_in_limbs"]
+  },
+  {
+    "text": "I have a terrible skin rash and constant itching",
+    "expected": ["skin_rash", "itching"]
+  },
+  {
+    "text": "I am experiencing chills and shivering",
+    "expected": ["chills", "shivering"]
+  },
+  {
+    "text": "I have jaundice and my eyes look yellow",
+    "expected": ["yellowing_of_eyes"]
+  },
+  {
+    "text": "I have severe back pain and neck pain",
+    "expected": ["back_pain", "neck_pain"]
+  },
+  {
+    "text": "I am not feeling any cough, but I have a high fever",
+    "expected": ["high_fever"]
+  },
+  {
+    "text": "I have lost my appetite and feel nauseous",
+    "expected": ["loss_of_appetite", "nausea"]
+  },
+  {
+    "text": "I am having difficulty breathing and a dry cough",
+    "expected": ["breathlessness", "cough"]
+  },
+  {
+    "text": "I am feeling anxious and have trouble concentrating",
+    "expected": ["anxiety", "lack_of_concentration"]
+  },
+  {
+    "text": "I have been sweating at night and losing weight",
+    "expected": ["sweating", "weight_loss"]
+  },
+  { "text": "My lymph nodes are swollen", "expected": ["swelled_lymph_nodes"] },
+  {
+    "text": "I have frequent urination and excessive thirst",
+    "expected": ["frequent_urination", "excessive_hunger"]
+  },
+  {
+    "text": "I feel lightheaded and have blurred vision",
+    "expected": ["dizziness", "blurred_and_distorted_vision"]
+  },
+  {
+    "text": "I have indigestion and acidity after eating",
+    "expected": ["indigestion", "acidity"]
+  },
+  {
+    "text": "I am not having diarrhea, but I have severe constipation",
+    "expected": ["constipation"]
+  },
+  {
+    "text": "I have a stiff neck and high fever",
+    "expected": ["stiff_neck", "high_fever"]
+  },
+  {
+    "text": "I am feeling very tired and have muscle aches",
+    "expected": ["fatigue", "muscle_pain"]
+  },
+  { "text": "I have painful urination", "expected": ["burning_urination"] },
+  {
+    "text": "I have an irregular sugar level",
+    "expected": ["irregular_sugar_level"]
+  },
+  { "text": "My heart is beating very fast", "expected": ["fast_heart_rate"] },
+  {
+    "text": "I have swelling in my stomach",
+    "expected": ["swelling_of_stomach"]
+  },
+  {
+    "text": "I am suffering from depression and memory loss",
+    "expected": ["depression", "lack_of_concentration"]
+  },
+  {
+    "text": "I have a migraine and feel nauseous",
+    "expected": ["headache", "nausea"]
+  },
+  {
+    "text": "I have a runny nose and nasal congestion",
+    "expected": ["runny_nose", "congestion"]
+  },
+  { "text": "I have chills but I do not have a fever", "expected": ["chills"] },
+  {
+    "text": "I am experiencing weight gain and fatigue",
+    "expected": ["weight_gain", "fatigue"]
+  },
+  { "text": "I feel very lethargic", "expected": ["lethargy"] },
+  {
+    "text": "I have a sore throat and continuous sneezing",
+    "expected": ["throat_pain", "continuous_sneezing"]
+  },
+  {
+    "text": "I am dehydrated and feel exhausted",
+    "expected": ["dehydration", "fatigue"]
+  },
+  {
+    "text": "I have abdominal pain and bloating",
+    "expected": ["abdominal_pain"]
+  },
+  {
+    "text": "My skin has nodal eruptions",
+    "expected": ["nodal_skin_eruptions"]
+  },
+  { "text": "I have heart palpitations", "expected": ["palpitations"] },
+  {
+    "text": "I am experiencing slow heart rate",
+    "expected": ["slow_heart_rate"]
+  },
+  { "text": "I have a mild fever", "expected": ["mild_fever"] },
+  { "text": "I feel good and healthy", "expected": [] },
+  {
+    "text": "I have chest pain and shortness of breath",
+    "expected": ["chest_pain", "breathlessness"]
+  },
+  {
+    "text": "I am feeling dizzy and have a headache",
+    "expected": ["dizziness", "headache"]
+  },
+  { "text": "I have loose stools", "expected": ["diarrhoea"] },
+  {
+    "text": "I have been vomiting and have diarrhea",
+    "expected": ["vomiting", "diarrhoea"]
+  },
+  {
+    "text": "I am experiencing excessive hunger",
+    "expected": ["excessive_hunger"]
+  },
+  {
+    "text": "I have back pain and weakness in my limbs",
+    "expected": ["back_pain", "weakness_in_limbs"]
+  },
+  { "text": "I have no appetite", "expected": ["loss_of_appetite"] },
+  {
+    "text": "I have a dry cough and runny nose",
+    "expected": ["cough", "runny_nose"]
+  },
+  {
+    "text": "I feel shivering and have a fever",
+    "expected": ["shivering", "high_fever"]
+  },
+  {
+    "text": "I have itchy skin and a rash",
+    "expected": ["itching", "skin_rash"]
+  },
+  { "text": "I am having trouble breathing", "expected": ["breathlessness"] },
+  { "text": "I have acidity and heartburn", "expected": ["acidity"] },
+  { "text": "I have a stiff neck", "expected": ["stiff_neck"] },
+  { "text": "I feel very anxious", "expected": ["anxiety"] },
+  {
+    "text": "I have fatigue and weakness in my limbs",
+    "expected": ["fatigue", "weakness_in_limbs"]
+  },
+  { "text": "I have frequent urination", "expected": ["frequent_urination"] },
+  { "text": "I have irregular sugar", "expected": ["irregular_sugar_level"] },
+  { "text": "I have a slow heartbeat", "expected": ["slow_heart_rate"] },
+  { "text": "I have nausea and vomiting", "expected": ["nausea", "vomiting"] }
+]
